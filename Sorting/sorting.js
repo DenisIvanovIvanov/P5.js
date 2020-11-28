@@ -55,6 +55,10 @@ async function insertionSort(elements, states) {
     }
 }
 
+async function countingSort(elements, states) {
+    
+}
+
 function sleep(ms) { 
     return new Promise(resolve => setTimeout(resolve, ms)); 
 } 

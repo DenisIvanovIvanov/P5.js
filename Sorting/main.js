@@ -55,6 +55,7 @@ function setupUI() {
     radio.option(1, 'Bubble');
     radio.option(2, 'Selection');
     radio.option(3, 'Insertion');
+    radio.option(4, 'Counting');
     radio.style('width', width);
     textAlign(CENTER);
     fill(255, 0, 0);
@@ -82,5 +83,10 @@ function runSort() {
             insertionSort(elements, states);
             break;
         }
+        case 4: {
+            countingSort(elements, states);
+            break;
+        }
+    }
     }
 }
